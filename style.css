@@ -1,0 +1,42 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #7A1CF1 50%,#000000);
+}
+
+.container{
+    height: 450px;
+    width: 330px;
+    background: #A768F7;
+    border-radius: 5px;
+    box-shadow: 0px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    overflow-y: auto;
+}
+
+#input {
+    background: #D1ADFF;    ;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding:0 10px;
+    margin: 15px 0;    
+}
+
+#input::placeholder{
+    color: #000000;
+}
