@@ -12,8 +12,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(45deg, #7A1CF1 50%,#000000);
-}
+    background: linear-gradient(45deg, #7A1CF1 50%,#000000 );
+} 
 
 .container{
     height: 450px;
@@ -39,4 +39,36 @@ body{
 
 #input::placeholder{
     color: #000000;
+}
+
+ul li{
+    text-decoration: none;
+    background: #e4dbdb;
+    color: #333;
+    height: 40px;
+    border-radius: 50px;
+    margin: 10px 0;
+    padding: 10px;
+    position: relative;
+}
+
+ul .fa-check, .fa-trash{
+    position: absolute;
+    cursor: pointer;
+}
+
+ul .fa-check{
+    right: 40px;
+    color: rgb(157, 224, 48);
+}
+
+ul .fa-trash{
+    right: 15px;
+    color: #ec1515;
+}
+
+ul .checked{
+    background: lightgreen;
+    text-decoration: line-through;
+    transition: .2s;
 }
