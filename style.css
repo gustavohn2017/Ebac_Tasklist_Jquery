@@ -7,6 +7,7 @@
     text-transform: capitalize;
 }
 
+/* Corpo da página */
 body{
     min-height: 100vh;
     display: flex;
@@ -15,6 +16,7 @@ body{
     background: linear-gradient(45deg, #7A1CF1 50%,#000000 );
 } 
 
+/* Container principal*/
 .container{
     height: 450px;
     width: 330px;
@@ -24,7 +26,7 @@ body{
     padding: 10px;
     overflow-y: auto;
 }
-
+/* Display do input */
 #input {
     background: #D1ADFF;    ;
     height: 50px;
@@ -41,6 +43,8 @@ body{
     color: #000000;
 }
 
+
+/* listagem dos itens*/
 ul li{
     text-decoration: none;
     background: #e4dbdb;
